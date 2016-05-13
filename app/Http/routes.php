@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+
+Route::get('/songdesc/', function () {
+    return view('pages.songdesc');
+});
