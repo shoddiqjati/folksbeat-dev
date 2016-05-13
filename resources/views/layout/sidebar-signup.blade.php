@@ -22,7 +22,17 @@
       <div class="checkbox">
         <label><input type="checkbox"> Remember me</label>
       </div>
-      <button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>
+      <div>
+        <h6> By clicking sign me up you agree to adhere to our 
+              <a href="http://www.google.com"><font color="orange"> terms of service </font></a>
+        </h6>
+      </div>
+      <button type="submit" class="btn btn-success btn-lg btn-block">SIGN ME UP</button>
     </form>
+    <div align="center">
+      <h6> Already have an account?
+          <a href="http://www.google.com"><font color="orange">Sign In</font></a>
+      </h6>
+    </div>
   </div>
 </div>
