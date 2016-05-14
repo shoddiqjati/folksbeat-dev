@@ -41,7 +41,7 @@
 
                   <div class="col-md-12">
                     <div class="col-md-8">
-                      <p class="navbar-text">SONG
+                      <h2 class="page-header">SONGS
                     </div>
                     <div class="col-md-4">
                       <span class="pull-right">
@@ -58,6 +58,37 @@
                         </ul>
                       </nav>
                     </span>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12"> 
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <div class="caption">
+                         <h3>Coldplay</h3>
+                          <h4>Hymn Fot The Weekend</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        
+                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <div class="caption">
+                          <h3>Coldplay</h3>
+                          <h4>Hymn Fot The Weekend</h4>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-sm-6 col-md-4">
+                      <div class="thumbnail">
+                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <div class="caption">
+                          <h3>Coldplay</h3>
+                          <h4>Hymn Fot The Weekend</h4>
+                        </div>
+                      </div>
                     </div>
                   </div>
               </div>
