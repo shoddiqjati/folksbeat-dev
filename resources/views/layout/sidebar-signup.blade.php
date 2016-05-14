@@ -34,5 +34,9 @@
           <a href="http://www.google.com"><font color="orange">Sign In</font></a>
       </h6>
     </div>
+    <div>
+      <img src="../../image/logo_AppStore.png" alt="appstore" width="38" height="13">
+    </div>
+
   </div>
 </div>
