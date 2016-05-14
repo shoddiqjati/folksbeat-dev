@@ -45,6 +45,7 @@ body {
 
 .navbar-default {
   background-color: rgb(238, 238, 238);
+
 }
 
 .navbar-user {
@@ -71,7 +72,7 @@ body {
 	left: 225px;
 	width: 350px;
 	position: fixed;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
   bottom: 50px;
@@ -80,6 +81,8 @@ body {
 	border: none;
   background-color: rgb(100, 50, 34);
 	overflow-y: auto;
+  background: url(http://localhost/folksbeat-dev/resources/assets/image/side_Background.png);
+  background-size: cover;
   }
 
   /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
@@ -122,6 +125,10 @@ body {
     padding-right: 30px !important;
   }
 
+  .navbar-default {
+    margin-left: 350px;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,4 +136,6 @@ body {
     #footer {
         height: 150px;
     }
+
+
 }

@@ -1,5 +1,6 @@
 @extends('layout.default')
 @section('title') halaman home @endsection
+@section('sidebar') @extends('layout.sidebar-login') @endsection
 @section('content')
           <div class="container-fluid">
               <div class="row">
@@ -9,5 +10,4 @@
                   </div>
               </div>
           </div>
-
 @stop

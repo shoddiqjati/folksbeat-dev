@@ -18,7 +18,7 @@
     <!-- header -->
 
     <!-- sidebar -->
-    @include('layout.sidebar-signup')
+    @yield('sidebar')
     <!-- sidebar -->
     </nav>
     <!-- collapsed -->

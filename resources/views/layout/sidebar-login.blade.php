@@ -1,5 +1,5 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
-  <div class="side-nav">
+  <div class="side-nav" style="color:white">
     <div class="row">
       <a class="navbar-brand" href="#">Folksbeat Id</a>
     </div>

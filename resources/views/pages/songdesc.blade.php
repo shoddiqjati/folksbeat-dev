@@ -1,5 +1,6 @@
 @extends('layout.default')
 @section('title') halaman home @endsection
+@section('sidebar') @extends('layout.sidebar-playlist') @endsection
 @section('content')
           <div class="container-fluid">
               <div class="row">
@@ -8,10 +9,10 @@
                       <h2>Coldplay</h2>
                       <h3>About the song</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus est, si videtur,
-                       et recta quidem ad me. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. 
-                       Duo Reges: constructio interrete. Optime, inquam. Iubet igitur nos Pythius Apollo noscere nosmet ipsos. 
+                       et recta quidem ad me. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret.
+                       Duo Reges: constructio interrete. Optime, inquam. Iubet igitur nos Pythius Apollo noscere nosmet ipsos.
                        Hic ego: Pomponius quidem, inquam, noster iocari videtur,
-                       et fortasse suo iure. Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Nam quid possumus facere melius? 
+                       et fortasse suo iure. Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Nam quid possumus facere melius?
                      </p>
                    </div>
               </div>
