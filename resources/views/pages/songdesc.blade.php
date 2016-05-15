@@ -64,7 +64,7 @@
                   <div class="col-md-12"> 
                     <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
-                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <img src="http://localhost/folksbeat-dev/resources/assets/image/album_unravel.jpg" alt="...">
                         <div class="caption">
                          <h3>Coldplay</h3>
                           <h4>Hymn Fot The Weekend</h4>
@@ -74,7 +74,7 @@
                     <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
                         
-                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <img src="http://localhost/folksbeat-dev/resources/assets/image/album_unravel.jpg" alt="...">
                         <div class="caption">
                           <h3>Coldplay</h3>
                           <h4>Hymn Fot The Weekend</h4>
@@ -83,7 +83,7 @@
                     </div>
                       <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
-                        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/album_unravel.jpg" alt="...">
+                        <img src="http://localhost/folksbeat-dev/resources/assets/image/album_unravel.jpg" alt="...">
                         <div class="caption">
                           <h3>Coldplay</h3>
                           <h4>Hymn Fot The Weekend</h4>
