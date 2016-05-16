@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="assets/css/bootstrap.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
   <link href="assets/css/layout.css" rel="stylesheet">
   <title>@yield('title')</title>
 </head>
