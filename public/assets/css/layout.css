@@ -81,7 +81,7 @@ body {
 	border: none;
   background-color: rgb(100, 50, 34);
 	overflow-y: auto;
-  background: url(http://localhost/folksbeat-dev/resources/assets/image/side_Background.png);
+  background: url(../../../resources/assets/image/side_Background.png);
   background-size: cover;
   }
 

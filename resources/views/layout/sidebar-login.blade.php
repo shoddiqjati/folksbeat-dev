@@ -1,14 +1,16 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
   <div class="side-nav" style="color:white">
-    <div class="row">
-      <a class="navbar-brand" href="#">Folksbeat Id</a>
+    <div align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:50px;">
+      </a>
     </div>
     <form role="form">
       <div class="form-group" align="center">
-        <label><h3>Sign In</h3></label>
+        <label><h3><font color="orange" size="3">——————— Sign In ———————</font></h3></label>
       </div>
       <div class="form-group">
-        <input class="form-control" id="username" placeholder="Username">
+          <input class="form-control" id="username" placeholder="Username">
       </div>
       <div class="form-group">
         <input type="password" class="form-control" id="pwd" placeholder="Password">
