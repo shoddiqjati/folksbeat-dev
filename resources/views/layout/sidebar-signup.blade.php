@@ -1,4 +1,4 @@
-<div class="collapse navbar-collapse navbar-ex1-collapse">
+<div class="collapse navbar-collapse navbar-ex1-collapse" style="font-family:Open Sans">
   <div class="side-nav" style="color:white">
     <div align="center">
       <a href="#">

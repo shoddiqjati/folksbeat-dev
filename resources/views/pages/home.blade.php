@@ -1,6 +1,6 @@
 @extends('layout.default')
 @section('title') halaman home @endsection
-@section('sidebar') @extends('layout.sidebar-login') @endsection
+@section('sidebar') @extends('layout.sidebar-signup') @endsection
 @section('content')
           <div class="container-fluid">
               <div class="row">
