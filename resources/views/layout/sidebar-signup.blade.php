@@ -7,7 +7,10 @@
     </div>
     <form role="form">
       <div class="form-group" align="center">
-        <label><h3><font color="orange" size="3">——————— Sign Up ———————</font></h3></label>
+        <label><h3>
+          <font color="orange" size="3">
+  <font style="font-family:Times New Roman;">——————— </font>Sign Up<font style="font-family:Times New Roman;"> ———————</font></font>
+        </h3></label>
       </div>
       <div class="form-group">
         <input class="form-control" id="username" placeholder="Username">
