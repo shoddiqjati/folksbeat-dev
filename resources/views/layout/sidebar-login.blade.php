@@ -9,8 +9,8 @@
       <div class="form-group" align="center">
         <label><h3><font color="orange" size="3">——————— Sign In ———————</font></h3></label>
       </div>
-      <div class="form-group">
-          <input class="form-control" id="username" placeholder="Username">
+      <div class="form-group">  
+        <input class="form-control" id="username" placeholder="Username">        
       </div>
       <div class="form-group">
         <input type="password" class="form-control" id="pwd" placeholder="Password">
