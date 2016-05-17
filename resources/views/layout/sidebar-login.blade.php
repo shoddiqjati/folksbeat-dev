@@ -2,7 +2,7 @@
   <div class="side-nav" style="color:white">
     <div align="center">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:50px;">
+        <img src="../resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:50px;">
       </a>
     </div>
     <form role="form">
@@ -27,11 +27,11 @@
     </div>
     <div align="center">
       <a href="http://play.google.com">
-      <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
+      <img src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
       </a>
       <span style="padding-right:15.74%;"> </span>
       <a href="http://www.appstore.com">
-      <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
+      <img src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
       </a>
     </div>
   </div>

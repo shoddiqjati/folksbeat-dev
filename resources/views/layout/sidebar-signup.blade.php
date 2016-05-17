@@ -1,11 +1,13 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
-  <div class="side-nav">
-    <div class="row">
-      <a class="navbar-brand" href="#">Folksbeat Id</a>
+  <div class="side-nav" style="color:white">
+    <div align="center">
+      <a href="#">
+        <img src="../resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:10px;">
+      </a>
     </div>
     <form role="form">
-      <div class="form-group">
-        <label><h3>Sign Up</h3></label>
+      <div class="form-group" align="center">
+        <label><h3><font color="orange" size="3">——————— Sign Up ———————</font></h3></label>
       </div>
       <div class="form-group">
         <input class="form-control" id="username" placeholder="Username">
@@ -22,8 +24,8 @@
       <div class="checkbox">
         <label><input type="checkbox"> Remember me</label>
       </div>
-      <div>
-        <h6> By clicking sign me up you agree to adhere to our 
+      <div align="left" style="padding-left:10px;">
+        <h6>By clicking sign me up you agree to adhere to our 
               <a href="http://www.google.com"><font color="orange"> terms of service </font></a>
         </h6>
       </div>
@@ -36,11 +38,11 @@
     </div>
     <div align="center">
       <a href="http://play.google.com">
-      <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
+      <img src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
       </a>
       <span style="padding-right:15.74%;"> </span>
       <a href="http://www.appstore.com">
-      <img src="https://raw.githubusercontent.com/shoddiqjati/folksbeat-dev/dev-frontend/resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
+      <img src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
       </a>
     </div>
   </div>
