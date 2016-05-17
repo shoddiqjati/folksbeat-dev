@@ -27,11 +27,10 @@
     </div>
     <div align="center">
       <a href="http://play.google.com">
-      <img src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
+      <img style="position:absolute;TOP:590px;LEFT:40px" src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
       </a>
-      <span style="padding-right:15.74%;"> </span>
       <a href="http://www.appstore.com">
-      <img src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
+      <img style="position:absolute;TOP:590px;LEFT:190px" src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
       </a>
     </div>
   </div>

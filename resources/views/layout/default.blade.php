@@ -8,6 +8,7 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
   <link href="assets/css/layout.css" rel="stylesheet">
+  <link href="assets/css/theme-change.css" rel="stylesheet">
   <title>@yield('title')</title>
 </head>
 
