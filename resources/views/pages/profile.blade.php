@@ -10,7 +10,7 @@
               	<form action="" method="post" name="EditProfile" id="EditProfile"> 
 <form action="upload.php" method="post" enctype="multipart/form-data">
     Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="file" name="imageUpload" id="imageUpload">
     <input type="submit" value="Upload Image" name="submit">
 </form>  
 	<p>First Name</p>
