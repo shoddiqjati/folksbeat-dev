@@ -1,4 +1,4 @@
-<div class="collapse navbar-collapse navbar-ex1-collapse" style="font-family:Open Sans">
+<div class="collapse navbar-collapse navbar-ex1-collapse" style="font-family:Open Sans;font-weight:300;">
   <div class="side-nav" style="color:white">
     <div align="center">
       <a href="#">
@@ -9,7 +9,7 @@
       <div class="form-group" align="center">
         <label><h3>
           <font color="orange" size="3">
-  <font style="font-family:Times New Roman;">——————— </font>Sign Up<font style="font-family:Times New Roman;"> ———————</font></font>
+  <font style="font-family:Times New Roman;">—————— </font>Sign Up<font style="font-family:Times New Roman;"> ——————</font></font>
         </h3></label>
       </div>
       <div class="form-group">
