@@ -90,6 +90,10 @@ body {
   background-size: cover;
   }
 
+  .form-edited{
+    margin-bottom:10px;
+  }
+
   /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
 
   .side-nav>li.dropdown>ul.dropdown-menu {

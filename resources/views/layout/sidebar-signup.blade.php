@@ -6,22 +6,22 @@
       </a>
     </div>
     <form role="form">
-      <div class="form-group" align="center">
+      <div class="form-group form-edited" align="center">
         <label><h3>
           <font color="orange" size="3">
   <font style="font-family:Times New Roman;">—————— </font>Sign Up<font style="font-family:Times New Roman;"> ——————</font></font>
         </h3></label>
       </div>
-      <div class="form-group">
+      <div class="form-group form-edited">
         <input class="form-control" id="username" placeholder="Username">
       </div>
-      <div class="form-group">
+      <div class="form-group form-edited">
         <input type="password" class="form-control" id="pwd" placeholder="Password">
       </div>
-      <div class="form-group">
+      <div class="form-group form-edited">
         <input type="password" class="form-control" id="pwd2" placeholder="Confirm Password">
       </div>
-      <div class="form-group">
+      <div class="form-group form-edited">
         <input class="form-control" id="email" placeholder="Email">
       </div>
       <div class="checkbox">
@@ -41,10 +41,10 @@
     </div>
     <div align="center">
       <a href="http://play.google.com">
-      <img style="position:absolute;TOP:590px;LEFT:40px" src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
+      <img style="position:relative;margin-right:20px;" src="../resources/assets/image/logo_GooglePlayStore.png" alt="appstore" width="112.5" height="34.125" style="border:0;">
       </a>
       <a href="http://www.appstore.com">
-      <img style="position:absolute;TOP:590px;LEFT:190px" src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
+      <img style="position:relative;" src="../resources/assets/image/logo_AppStore.png" alt="appstore" width="101.325" height="34.125" style="border:0;">
       </a>
     </div>
   </div>
