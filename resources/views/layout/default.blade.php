@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
   <link href="assets/css/layout.css" rel="stylesheet">
   <link href="assets/css/theme-change.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
   <title>@yield('title')</title>
 </head>
 
