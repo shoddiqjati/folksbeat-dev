@@ -1,7 +1,7 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
   <div class="side-nav">
     <div class="row" style="margin-bottom:20px;">
-      <a class="navbar-brand" href="#"><img src="http://localhost/folksbeat-dev/resources/assets/image/logo_FBid.png" style="height:40px; width:40px;"></a>
+      <a class="navbar-brand" href="#"><img src="../resources/assets/image/logo_FBid.png" style="height:40px; width:50px;"></a>
     </div>
     <div class="row">
       <img src="http://localhost/folksbeat-dev/resources/assets/image/profile_photo.png" class="img-rounded" style="height:150px; width:150px;display:block; margin-left:auto; margin-right:auto;">
