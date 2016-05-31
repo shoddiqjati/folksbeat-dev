@@ -2,7 +2,7 @@
   <div class="side-nav" style="color:white">
     <div align="center">
       <a href="#">
-        <img src="../resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:10px;">
+        <img src="../resources/assets/image/logo_FBid.png" width="163.5" height="128" style="margin-top:20px;">
       </a>
     </div>
     <form role="form">
@@ -28,7 +28,7 @@
         <label><input type="checkbox"> Remember me</label>
       </div>
       <div align="left" style="padding-left:10px;">
-        <h6>By clicking sign me up you agree to adhere to our 
+        <h6>By clicking sign me up you agree to adhere to our
               <a href="http://www.google.com"><font color="orange"> terms of service </font></a>
         </h6>
       </div>

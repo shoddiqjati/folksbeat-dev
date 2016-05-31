@@ -2,8 +2,8 @@
 @section('title') halaman home @endsection
 @section('sidebar') @extends('layout.sidebar-playlist') @endsection
 @section('content')
-          <div class="container-fluid">
-              <div class="row">
+          <div class="content">
+              <div class="row songdesc" style="z-index:1;">
                   <div class="col-md-12" style="background color:grey">
                       <h1>Hymn For The Weekend</h1>
                       <h2>Coldplay</h2>
@@ -16,7 +16,7 @@
                      </p>
                    </div>
               </div>
-               <div class="row">
+               <!-- <div class="row">
                  <div class="col-md-12">
                         <div class="col-md-8">
                           <ul class="nav nav-tabs">
@@ -61,7 +61,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-12"> 
+                  <div class="col-md-12">
                     <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
                         <img src="http://localhost/folksbeat-dev/resources/assets/image/album_unravel.jpg" alt="...">
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
-                        
+
                         <img src="http://localhost/folksbeat-dev/resources/assets/image/album_unravel.jpg" alt="...">
                         <div class="caption">
                           <h3>Coldplay</h3>
@@ -91,7 +91,85 @@
                       </div>
                     </div>
                   </div>
-              </div>
-          </div>
+              </div> -->
 
+              <div>
+            		<ul class="nav-custom nav-tabs-custom" style="z-index: 1; top: 45%; margin-top:18px;">
+            	  		<li class="active"><a data-toggle="tab" href="#tab-popular">POPULAR</a></li>
+            	 		<li><a data-toggle="tab" href="#menu1">NEW</a></li>
+            	  		<li><a data-toggle="tab" href="#menu2">FEATURED</a></li>
+            		</ul>
+
+            		<div class="tab-content" style=" z-index: 0; position: fixed; margin-top:68px; top: 45%; height:40%; overflow-y: auto;">
+            		  <div id="tab-popular" class="tab-pane fade in active">
+            		    <div class="row content-title-container row-content">
+            		    	<div class="col-md-11 content-title">
+            		    		<h5>SONGS</h5>
+            		    	</div>
+            		    	<div class="col-md-1"></div>
+            		    </div>
+            		    <div class="row row-content">
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    </div>
+            		    <div class="row content-title-container row-content">
+            		    	<div class="col-md-11 content-title">
+            		    		<h5>ALBUMS</h5>
+            		    	</div>
+            		    	<div class="col-md-1"></div>
+            		    </div>
+            		    <div class="row row-content">
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    	<div class="col-md-3">
+            		    		<img class="song-art" src="http://placehold.it/350x350">
+            		    		<h5 class="song-title">Judul Lagu</h5>
+            		    		<h6 class="song-artist">Artist</h6>
+            		    	</div>
+            		    </div>
+            		  </div>
+            		  <div id="menu1" class="tab-pane fade">
+            		  	<div class="row">
+            		  		<h1>SOMETHING!!</h1>
+            		  	</div>
+            		  </div>
+            		  <div id="menu2" class="tab-pane fade">
+            		    <div class="row">
+            		  		<h1>SOMETHING!!</h1>
+            		  	</div>
+            		  </div>
+            		</div>
+            	</div>
+          </div>
 @stop

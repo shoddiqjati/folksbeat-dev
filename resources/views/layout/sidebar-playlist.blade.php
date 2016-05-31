@@ -8,17 +8,23 @@
       <h4 style="text-align:center; color:white;">Misbach Imaduddin Z</h4>
     </div>
 
+    <div>
+      <h4> MY PLAYLIST</h4>
+    </div>
     <div class="list-group">
       <a href="#" class="list-group-item active">
-        <h4 class="list-group-item-heading">Playlist 1</h4>
+        <span class="glyphicon glyphicon-chevron-right next" aria-hidden="true"></span>
+        <h5 class="list-group-item-heading">Playlist 1</h5>
         <p class="list-group-item-text">12 songs</p>
       </a>
       <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Playlist 2</h4>
+        <span class="glyphicon glyphicon-chevron-right next" aria-hidden="true"></span>
+        <h5 class="list-group-item-heading">Playlist 2</h5>
         <p class="list-group-item-text">8 songs</p>
       </a>
       <a href="#" class="list-group-item">
-        <h4 class="list-group-item-heading">Playlist 3</h4>
+        <span class="glyphicon glyphicon-chevron-right next" aria-hidden="true"></span>
+        <h5 class="list-group-item-heading">Playlist 3</h5>
         <p class="list-group-item-text">10 songs</p>
       </a>
     </div>
