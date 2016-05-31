@@ -1,0 +1,319 @@
+/*
+Author: Start Bootstrap - http://startbootstrap.com
+'SB Admin' HTML Template by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0.
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* ATTN: This is mobile first CSS - to update 786px and up screen width use the media query near the bottom of the document! */
+
+/* Global Styles */
+
+body {
+  margin-top: 50px;
+  background-color: rgb(238, 238, 238);
+}
+
+#wrapper {
+  padding-left: 0;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 50px 15px;
+}
+
+
+#footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+#player {
+  padding-top: 10px;
+}
+
+
+.progress {
+  height: 8px;
+}
+
+
+.navbar-default {
+  background-color: rgb(238, 238, 238);
+
+}
+
+.navbar-user {
+  padding-left: 10px;
+}
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+  /* Wrappers */
+
+  #wrapper {
+	padding-left: 350px;
+  }
+
+  .content{
+    padding-left: 350px;
+    width: 100%;
+  }
+
+  #page-wrapper {
+	padding: 15px 25px 0px 350px;
+  }
+
+  /* Side Nav */
+
+  .side-nav {
+	margin-left: -225px;
+	left: 225px;
+	width: 350px;
+	position: fixed;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  bottom: 50px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+  background-color: rgb(100, 50, 34);
+	overflow-y: auto;
+  background: url(../../../resources/assets/image/side_Background.png);
+  background-size: cover;
+  }
+
+  .form-edited{
+    margin-bottom:10px;
+  }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+
+  .side-nav>li>a {
+	width: 350px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+  }
+
+  .navbar-collapse {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .navbar-default {
+    margin-left: 350px;
+  }
+
+  .btn {
+    color: #fff;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #footer {
+        height: 150px;
+    }
+
+
+}
+
+
+#tab-popular{
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.content-title-container{
+  padding-top: 10px;
+  padding-left: 0px;
+  border-bottom: 1px solid #ddd
+}
+
+.row-content{
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content-title{
+  padding-left: 0px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+h5{
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.song-art{
+  max-width: 100%;
+}
+
+.song-title, .song-artist{
+  padding: 10px;
+  margin: 0px;
+  background: #fff;
+}
+
+
+.nav-custom {
+  height: 58px;
+  margin-right: 30px;
+  margin-left: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: #eee;
+  position: fixed;
+   width: 100%;
+}
+.nav-custom > li {
+  position: relative;
+  display: inline-block;
+  float: none;
+}
+.nav-custom > li > a {
+  position: relative;
+  display: block;
+  font-size: 1.3em;
+  padding: 15px 20px;
+}
+.nav-custom > li > a:hover,
+.nav-custom > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.nav-custom > li.disabled > a {
+  color: #000;
+}
+.nav-custom > li.disabled > a:hover,
+.nav-custom > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  /*background-color: transparent;*/
+}
+.nav-custom .open > a,
+.nav-custom .open > a:hover,
+.nav-custom .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+.nav-custom .nav-divider-custom {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav-custom > li > a > img {
+  max-width: none;
+}
+.nav-tabs-custom {
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs-custom > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs-custom > li > a {
+  color: #555;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs-custom > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs-custom > li.active > a,
+.nav-tabs-custom > li.active > a:hover,
+.nav-tabs-custom > li.active > a:focus {
+  font-weight: 600;
+  color: #555;
+  cursor: default;
+  /*background-color: transparent;*/
+  border-bottom: 2px solid #F08519;
+}
+.nav-tabs-custom.nav-justified-custom {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs-custom.nav-justified > li {
+  float: none;
+}
+.nav-tabs-custom.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs-custom.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs-custom.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs-custom.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs-custom.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-custom.nav-justified > .active > a,
+.nav-tabs-custom.nav-justified > .active > a:hover,
+.nav-tabs-custom.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs-custom.nav-justified > li > a {
+    border-bottom: 1px solid #eee;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-custom.nav-justified > .active > a,
+  .nav-tabs-custom.nav-justified > .active > a:hover,
+  .nav-tabs-custom.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}

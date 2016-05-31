@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+});
+
+Route::get('/songdesc/', function () {
+    return view('pages.songdesc');
+});
+
+Route::get('/profile/', function () {
+    return view('pages.profile');
 });
 
 Route::auth();
