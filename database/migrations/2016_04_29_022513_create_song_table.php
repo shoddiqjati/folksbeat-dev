@@ -14,12 +14,12 @@ class CreateSongTable extends Migration
     {
         Schema::create('songs', function (Blueprint $table) {
             $table->increments('id_song');
-            $table->integer('id_region')
+            $table->integer('id_province')
                     ->unsigned()
                     ->default(0);
-            $table->foreign('id_region')
-                    ->references('id_region')
-                    ->on('regions')
+            $table->foreign('id_province')
+                    ->references('id_province')
+                    ->on('provinces')
                     ->onDelete('cascade')
                     ->onUpdate('cascade');
             $table->string('title_song');
