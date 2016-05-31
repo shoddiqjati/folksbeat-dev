@@ -19,7 +19,7 @@ class CreatePlaylistContentTable extends Migration
                     ->default(0);
             $table->foreign('id_playlist')
                     ->references('id_playlist')
-                    ->on('playlist')
+                    ->on('playlists')
                     ->onDelete('cascade')
                     ->onUpdate('cascade');
             $table->integer('id_song')
