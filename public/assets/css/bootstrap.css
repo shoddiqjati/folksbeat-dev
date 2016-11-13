@@ -2274,7 +2274,7 @@ th {
 .table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
-  vertical-align: top;
+  vertical-align: middle;
   border-top: 1px solid #ddd;
 }
 .table > thead > tr > th {
@@ -6464,6 +6464,256 @@ button.close {
 .carousel-caption .btn {
   text-shadow: none;
 }
+
+
+.label {
+  color: #fff;
+  font-size: 11px;
+  line-height: 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 6px;
+  display: inline-block;
+  font-weight: 600;
+}
+.label.pull-right {
+  margin: 0;
+}
+h1 .label,
+h2 .label,
+h3 .label,
+h4 .label,
+h5 .label,
+h6 .label {
+  font-size: 75%;
+  padding: .2em .5em;
+}
+.label.label-tag {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 18px;
+  margin-left: 12px;
+  padding: 0 5px;
+  position: relative;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.label.label-tag:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 12px 10px 0;
+  border-color: transparent #b0b0b0 transparent transparent;
+  -webkit-transform: rotate(360deg);
+  margin-left: -17px;
+  top: -1px;
+}
+.label.label-tag:after {
+  content: "";
+  display: block;
+  background: #fff;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 99px;
+  margin: -12px 0 0 -10px;
+}
+.ie8 .label.label-tag:after {
+  display: none !important;
+}
+.label {
+  background: #b0b0b0;
+}
+.label[href]:hover,
+.label[href]:focus {
+  background-color: #979797;
+}
+.label.label-tag {
+  border: 1px solid #b0b0b0;
+}
+.label.label-tag:before {
+  border-color: transparent #b0b0b0 transparent transparent;
+}
+.label.label-tag[href]:hover,
+.label.label-tag[href]:focus {
+  border-color: #979797;
+}
+.label.label-tag[href]:hover:before,
+.label.label-tag[href]:focus:before {
+  border-color: transparent #979797 transparent transparent;
+}
+.right-to-left .label.label-tag:before {
+  border-color: transparent transparent transparent #b0b0b0;
+}
+.right-to-left .label.label-tag[href]:hover:before,
+.right-to-left .label.label-tag[href]:focus:before {
+  border-color: transparent transparent transparent #979797;
+}
+.ie8 .right-to-left .label.label-tag:before,
+.ie9 .right-to-left .label.label-tag:before {
+  border-color: transparent #b0b0b0 transparent transparent;
+}
+.ie8 .right-to-left .label.label-tag[href]:hover:before,
+.ie8 .right-to-left .label.label-tag[href]:focus:before,
+.ie9 .right-to-left .label.label-tag[href]:hover:before,
+.ie9 .right-to-left .label.label-tag[href]:focus:before {
+  border-color: transparent #979797 transparent transparent;
+}
+.label.label-success {
+  background: #5ebd5e;
+}
+.label.label-success[href]:hover,
+.label.label-success[href]:focus {
+  background-color: #43a543;
+}
+.label.label-success.label-tag {
+  border: 1px solid #5ebd5e;
+}
+.label.label-success.label-tag:before {
+  border-color: transparent #5ebd5e transparent transparent;
+}
+.label.label-success.label-tag[href]:hover,
+.label.label-success.label-tag[href]:focus {
+  border-color: #43a543;
+}
+.label.label-success.label-tag[href]:hover:before,
+.label.label-success.label-tag[href]:focus:before {
+  border-color: transparent #43a543 transparent transparent;
+}
+.right-to-left .label.label-success.label-tag:before {
+  border-color: transparent transparent transparent #5ebd5e;
+}
+.right-to-left .label.label-success.label-tag[href]:hover:before,
+.right-to-left .label.label-success.label-tag[href]:focus:before {
+  border-color: transparent transparent transparent #43a543;
+}
+.ie8 .right-to-left .label.label-success.label-tag:before,
+.ie9 .right-to-left .label.label-success.label-tag:before {
+  border-color: transparent #5ebd5e transparent transparent;
+}
+.ie8 .right-to-left .label.label-success.label-tag[href]:hover:before,
+.ie8 .right-to-left .label.label-success.label-tag[href]:focus:before,
+.ie9 .right-to-left .label.label-success.label-tag[href]:hover:before,
+.ie9 .right-to-left .label.label-success.label-tag[href]:focus:before {
+  border-color: transparent #43a543 transparent transparent;
+}
+.label.label-warning {
+  background: #f4b04f;
+}
+.label.label-warning[href]:hover,
+.label.label-warning[href]:focus {
+  background-color: #f19a1f;
+}
+.label.label-warning.label-tag {
+  border: 1px solid #f4b04f;
+}
+.label.label-warning.label-tag:before {
+  border-color: transparent #f4b04f transparent transparent;
+}
+.label.label-warning.label-tag[href]:hover,
+.label.label-warning.label-tag[href]:focus {
+  border-color: #f19a1f;
+}
+.label.label-warning.label-tag[href]:hover:before,
+.label.label-warning.label-tag[href]:focus:before {
+  border-color: transparent #f19a1f transparent transparent;
+}
+.right-to-left .label.label-warning.label-tag:before {
+  border-color: transparent transparent transparent #f4b04f;
+}
+.right-to-left .label.label-warning.label-tag[href]:hover:before,
+.right-to-left .label.label-warning.label-tag[href]:focus:before {
+  border-color: transparent transparent transparent #f19a1f;
+}
+.ie8 .right-to-left .label.label-warning.label-tag:before,
+.ie9 .right-to-left .label.label-warning.label-tag:before {
+  border-color: transparent #f4b04f transparent transparent;
+}
+.ie8 .right-to-left .label.label-warning.label-tag[href]:hover:before,
+.ie8 .right-to-left .label.label-warning.label-tag[href]:focus:before,
+.ie9 .right-to-left .label.label-warning.label-tag[href]:hover:before,
+.ie9 .right-to-left .label.label-warning.label-tag[href]:focus:before {
+  border-color: transparent #f19a1f transparent transparent;
+}
+.label.label-danger {
+  background: #e66454;
+}
+.label.label-danger[href]:hover,
+.label.label-danger[href]:focus {
+  background-color: #df3c28;
+}
+.label.label-danger.label-tag {
+  border: 1px solid #e66454;
+}
+.label.label-danger.label-tag:before {
+  border-color: transparent #e66454 transparent transparent;
+}
+.label.label-danger.label-tag[href]:hover,
+.label.label-danger.label-tag[href]:focus {
+  border-color: #df3c28;
+}
+.label.label-danger.label-tag[href]:hover:before,
+.label.label-danger.label-tag[href]:focus:before {
+  border-color: transparent #df3c28 transparent transparent;
+}
+.right-to-left .label.label-danger.label-tag:before {
+  border-color: transparent transparent transparent #e66454;
+}
+.right-to-left .label.label-danger.label-tag[href]:hover:before,
+.right-to-left .label.label-danger.label-tag[href]:focus:before {
+  border-color: transparent transparent transparent #df3c28;
+}
+.ie8 .right-to-left .label.label-danger.label-tag:before,
+.ie9 .right-to-left .label.label-danger.label-tag:before {
+  border-color: transparent #e66454 transparent transparent;
+}
+.ie8 .right-to-left .label.label-danger.label-tag[href]:hover:before,
+.ie8 .right-to-left .label.label-danger.label-tag[href]:focus:before,
+.ie9 .right-to-left .label.label-danger.label-tag[href]:hover:before,
+.ie9 .right-to-left .label.label-danger.label-tag[href]:focus:before {
+  border-color: transparent #df3c28 transparent transparent;
+}
+.label.label-info {
+  background: #5bc0de;
+}
+.label.label-info[href]:hover,
+.label.label-info[href]:focus {
+  background-color: #31b0d5;
+}
+.label.label-info.label-tag {
+  border: 1px solid #5bc0de;
+}
+.label.label-info.label-tag:before {
+  border-color: transparent #5bc0de transparent transparent;
+}
+.label.label-info.label-tag[href]:hover,
+.label.label-info.label-tag[href]:focus {
+  border-color: #31b0d5;
+}
+.label.label-info.label-tag[href]:hover:before,
+.label.label-info.label-tag[href]:focus:before {
+  border-color: transparent #31b0d5 transparent transparent;
+}
+.right-to-left .label.label-info.label-tag:before {
+  border-color: transparent transparent transparent #5bc0de;
+}
+.right-to-left .label.label-info.label-tag[href]:hover:before,
+.right-to-left .label.label-info.label-tag[href]:focus:before {
+  border-color: transparent transparent transparent #31b0d5;
+}
+.ie8 .right-to-left .label.label-info.label-tag:before,
+.ie9 .right-to-left .label.label-info.label-tag:before {
+  border-color: transparent #5bc0de transparent transparent;
+}
+.ie8 .right-to-left .label.label-info.label-tag[href]:hover:before,
+.ie8 .right-to-left .label.label-info.label-tag[href]:focus:before,
+.ie9 .right-to-left .label.label-info.label-tag[href]:hover:before,
+.ie9 .right-to-left .label.label-info.label-tag[href]:focus:before {
+  border-color: transparent #31b0d5 transparent transparent;
+}
+
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
